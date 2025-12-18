@@ -86,7 +86,7 @@ Nota: Nunca realices push hacía develop ni a main directamente.
 ## ISSUES
 Los "Issues" serán generados por el Product Owner, Scrum Master y Líder Técnico unicamente siguiendo la siguiente plantilla:
 
-```bash
+```js
 nombre: nueva funcionalidad o refactorizacion
 descripcion: proponer o reportar una nueva funcionalidad a desarrollar, breve
 titulo: "[FEAT] "
