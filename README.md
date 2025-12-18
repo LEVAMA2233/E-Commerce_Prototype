@@ -82,3 +82,31 @@ Nota: Nunca realices push hacía develop ni a main directamente.
 6. Tu Pull Request entrará a revisión.
 7. Una vez aprobado, se realiza merge a develop
 8. La rama main se actualizará desde develop cuando se apruebe por parte del Product Owner.
+
+## ISSUES
+Los "Issues" serán generados por el Product Owner, Scrum Master y Líder Técnico unicamente siguiendo la siguiente plantilla:
+
+---
+nombre: nueva funcionalidad o refactorizacion
+descripcion: proponer o reportar una nueva funcionalidad a desarrollar, breve
+titulo: "[FEAT] "
+etiquetas: mejora o propuesta, pagina o general o script, front o back o bbdd
+asignaciones: se asignará acorde a metrica y patrones de trabajo 
+---
+
+### Tareas
+El asignado deberá copiar esta lista de tareas y pegarla posteriormente en su Pull Request
+
+- [ ] Crear rama feature/...
+- [ ] Implementar funcionalidad
+- [ ] Realizar pruebas unitarias
+- [ ] Documentar cambios si aplica
+
+### Criterios de aceptación
+
+- Marcar los corchetes correspondientes con una x, si hay alguno inconcluso explicar por qué y trabajar con el equipo para completarlo.
+- Qué debe hacer la funcionalidad para considerarse terminada.
+
+### Notas
+
+Cualquier comentario adicional o requerimiento especial del Product Owner, Scrum Master o Lider Tecnico.
