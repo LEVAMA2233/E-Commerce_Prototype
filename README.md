@@ -87,11 +87,11 @@ Nota: Nunca realices push hacía develop ni a main directamente.
 Los "Issues" serán generados por el Product Owner, Scrum Master y Líder Técnico unicamente siguiendo la siguiente plantilla:
 
 ```js
-nombre: nueva funcionalidad o refactorizacion
-descripcion: proponer o reportar una nueva funcionalidad a desarrollar, breve
-titulo: "[FEAT] "
-etiquetas: mejora o propuesta, pagina o general o script, front o back o bbdd
-asignaciones: se asignará acorde a metrica y patrones de trabajo 
+Nombre: nueva funcionalidad o refactorizacion
+Descripcion: proponer o reportar una nueva funcionalidad a desarrollar, breve
+Titulo: "[FEAT] "
+Etiquetas: mejora o propuesta, pagina o general o script, front o back o bbdd
+Asignaciones: se asignará acorde a metrica y patrones de trabajo 
 `
 Tareas
 
@@ -102,10 +102,32 @@ Tareas
 
 Criterios de aceptación
 
-- Marcar los corchetes correspondientes con una x, si hay alguno inconcluso explicar por qué y trabajar con el equipo para completarlo.
+- Marcar los corchetes correspondientes con una x, si hay alguno inconcluso explicar como podemos ayudarte como equipo.
 - Qué debe hacer la funcionalidad para considerarse terminada.
 
 Notas
 
 Cualquier comentario adicional o requerimiento especial del Product Owner, Scrum Master o Lider Tecnico.
+```
+## PULL REQUESTS
+Para solicitar Pull Requests, los asignados deberán copiar y rellenar la siguiente plantilla:
+
+```js
+Nombre: colocar el titulo del Issue que asociarás
+Fecha: coloca la fecha del Issue
+
+Descripción: explica tu desarrollo y razones
+#issue: coloca aquí el número del Issue a asociar
+
+Cambios realizados: describe los cambios o mejoras realizadas de manera breve
+
+CHECKLIST (copia y pega el checklist de Tareas del Issue y ve marcandolas comforme a tu desarrollo)
+- [ ] tarea 1
+- [ ] tarea 2
+.
+.
+.
+- [ ] tarea n
+
+Comentarios: agrega comentarios si crees oportuno o no puedes participar en la revisión
 ```
