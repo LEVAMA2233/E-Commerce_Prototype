@@ -36,15 +36,6 @@ mi-ecommerce-repo/
 
 ```
 
-## Definición de ramas
-
-```text
-main        → versión estable (producción)
-develop     → rama de integración del equipo
-feature/*   → desarrollo de nuevas funcionalidades
-hotfix/*    → correcciones urgentes en producción
-```
-
 ## Flujo de trabajo
 Cada persona para iniciar su trabajo debe iniciar siempre con los siguientes comandos:
 ```bash
