@@ -1,4 +1,4 @@
-# ISSUES
+# Issues
 Los "Issues" serán generados por el Product Owner, Scrum Master y Líder Técnico unicamente siguiendo la siguiente plantilla:
 
 ```js
@@ -24,3 +24,4 @@ Notas
 
 Cualquier comentario adicional o requerimiento especial del Product Owner, Scrum Master o Lider Tecnico.
 ```
+
