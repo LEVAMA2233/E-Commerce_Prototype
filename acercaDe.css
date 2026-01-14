@@ -105,7 +105,7 @@ body {
 }
 
 footer {
-    text-align: center;
+    border-top: 8px solid var(--rojo);
 }
 
 .Panal-section{/*Acá están contenidos los hexagonos*/
