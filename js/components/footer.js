@@ -65,7 +65,7 @@ button{
           <a href="/pages/cultura.html"><p class="fw-bold">Cultura/Galeria</p></a>
         </div>
         <div class="d-none d-md-block col-md-2 text-center">
-          <a href="/pages/preguntasFrecuentes"><p class="fw-bold">Preguntas frecuentes</p></a>
+          <a href="/pages/preguntasFrecuentes.html"><p class="fw-bold">Preguntas frecuentes</p></a>
         </div>
 
         <div class="col-3 col-2-sm d-md-none"></div>

@@ -171,7 +171,7 @@ const navbar = () =>{
                   </li>
                   <!-- Solo se muestran como botones en  caso de pantallas grandes-->
                   <li class="nav-item d-none d-lg-block">
-                    <a class="navbar-brand" href="/pages/carrito.html">
+                    <a class="navbar-link" href="/pages/carrito.html">
                         <img src="/img-acercade/carrito-logo.png" id="logo-carrito" alt="Logo de carrito" class="img-fluid">
                     </a>
                   </li>
