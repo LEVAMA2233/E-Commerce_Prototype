@@ -8,7 +8,6 @@
 
 .banner{
   width: 100%;
-  margin-bottom: 30px;
   padding: 160px;
   display: flex;
   text-align: left;
@@ -26,4 +25,36 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.side-bar {
+  background-color: var(--rojo);
+}
+
+.left-bar {
+  border-right: 2px solid var(--rojo);
+}
+
+.right-bar {
+  border-left: 2px solid var(--rojo);
+}
+
+/* fondo para escritorio */
+@media (min-width: 768px) {
+  .content-area {
+    background-color: #ffffff;
+  }
+}
+
+/* fondo para dispositivos moviles */
+@media (max-width: 767.98px) {
+  .side-bar {
+    display: none;
+  }
+
+  .content-area {
+    background: var(--rojo);
+    color: white;
+    min-height: 100vh;
+  }
 }
