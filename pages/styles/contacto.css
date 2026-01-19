@@ -103,23 +103,3 @@ footer {
     border-top: 8px solid var(--rojo);
 }
 
-
-@media screen and (max-width: 835px) {
-
-
-/*Hacemos que cada elemento del navbar ocupe el renglón completo cuando la pantalla es pequeña*/
-.nav-item{
-    width:100%;
-}
-/*Ahora cambia de color el renglón completo al seleccionar*/
-.nav-item:hover{
-    color:black;
-    background-color: white;
-}
-/*Ajustamos el tamaño de fuente para que sea responsivo*/
-.nav-link{
-    font-size: large;
-    border-radius: 0px;
- }
-   
-}

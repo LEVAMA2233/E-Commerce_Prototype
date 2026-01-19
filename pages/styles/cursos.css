@@ -33,6 +33,7 @@ h1{
 }
 .contenedor-busqueda{
 width: 100%;
+max-width:200px;
 }
 .input-busqueda{
 /* Quitar el estilo por defecto del input */
@@ -73,8 +74,8 @@ width: 100%;
 
 /* Estilo cuando el input está seleccionado (Activo) */
 .btn-check:checked + .btn-filter {
-  background-color: #222 !important; /* Negro/Gris oscuro */
-  color: white !important;
+  background-color: #222; /* Negro/Gris oscuro */
+  color: white;
 }
 
 /* Mostrar el icono solo cuando esté seleccionado */
@@ -85,4 +86,23 @@ width: 100%;
 /* Efecto hover opcional */
 .btn-filter:hover {
   background-color: #e0e0e0;
+}
+
+/* Cursos */
+.contenedor-cursos{
+  margin: 20px;
+}
+.tarjeta-curso{
+  margin: 15px;
+  border-radius:25px;
+  padding: 10px;
+}
+.tarjeta-curso:hover{
+  transform: translateY(-15px); 
+}
+.card-title{
+  font-family: var(--Tittle-and-subtitles);
+}
+.imagen-curso{
+  border-radius:25px;
 }

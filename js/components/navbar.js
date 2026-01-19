@@ -11,18 +11,14 @@ const navbar = () =>{
 
 
 .navbar{
-    background-color: black;
-    width: 100vw;
+
  }
 
 #logo-muso{
-     max-height: 70px;
-     max-width: 150px;
-     margin-right: 0px;
+
 }
  .navbar-brand{
-    color:var(--blanquino);
-    margin: 0px;
+
  }
  .nav-item{
     margin-right: 4px;
@@ -56,8 +52,8 @@ const navbar = () =>{
     transform: scale(1.3);
 }
 #logo-carrito{
-  height: 80px;
-  width: 80px;
+  height: 75px;
+  width: 75px;
 }
 #logo-carrito:hover{
     transform: scale(1.3);
@@ -67,9 +63,9 @@ const navbar = () =>{
     background-color: #2C2C2C;
     color: var(--blanquino);
     font-family: var(--Tittle-and-subtitles);
-    margin: 5px;
+    margin: 3px;
     font-size: x-large;
-    padding: 3px 6px;
+    padding: 2px 5px;
     border-radius: 10px;
  }
  #btn-Log-in{
@@ -122,10 +118,10 @@ const navbar = () =>{
 
     
     </style>
-    <nav class="navbar navbar-expand-lg custom-navbar sticky-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top" data-bs-theme="dark" style="background-color: black; width: 100vw;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="/">
-                <img src="/img-acercade/logo-muso.png" id="logo-muso" alt="Logo de Musou" class="img-fluid">
+              <a class="navbar-brand" href="/" style="    color:var(--blanquino); margin: 0px;">
+                <img src="/img-acercade/logo-muso.png" id="logo-muso" alt="Logo de Musou" class="img-fluid" style="max-height: 70px; max-width: 150px; margin-right: 0px;">
               </a>
               <button class="navbar-toggler" style="color:#e6e6ff; margin-right: 20px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon  mr-4"></span>
