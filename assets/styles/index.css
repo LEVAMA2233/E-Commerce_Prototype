@@ -6,27 +6,6 @@
     --Content:"Source Sans 3", sans-serif;
 }
 
-/* .banner{
-  width: 100%;
-  padding: 160px;
-  display: flex;
-  text-align: left;
-  position: relative; /* Necesario para el posicionamiento absoluto del pseudo-elemento
-}
-
-.banner::before{
-  background-image: url('https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2019/05/13/7A2B4217-677A-42A6-9E01-CF0BA7C49D75/97.jpg?crop=3000,1688,x0,y1&width=1600&height=900&optimize=high&format=webply');
-    content: "";
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-} */
-
 .banner {
   width: 100%;
   height: 350px; /* Mejor que padding fijo */
