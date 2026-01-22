@@ -8,18 +8,19 @@
 body{
     background-color: white;
 }
-.contenedor-registro{
+.contenedor-login{
     background-color: var(--rojo);
     width: 100%;
     margin: auto;
 }
-.contenedor-centralregistro{
+.contenedor-centrallogin{
     background-color: white;
     width: 80%;
     margin: auto;
     text-align: left;
     font-family: var(--Tittle-and-subtitles);
-    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
     padding-left: 20rem;
     padding-right: 20rem;
 }
@@ -33,12 +34,15 @@ h1{
 }
 .form-control{
     margin-bottom: 1rem;
+    border-color: white;
+    border-bottom-color: black; 
 }
 .btn-primary{
   background-color: var(--gris);
   color: black;
   border: none;
   margin-left:11.5rem;
+  margin-top: 2rem;
   padding:0.5rem 4rem;
   border-radius: 20rem;
   }
