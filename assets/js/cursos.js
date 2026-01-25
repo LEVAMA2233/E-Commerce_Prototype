@@ -91,7 +91,7 @@ async function init() {
     botonLupa.addEventListener('click', () => { 
         const texto = inputBusqueda.value.toLowerCase().trim();
         console.log(texto) //trim borra los espacios en blanco
-        const filtrados = cursos.filter(curso => curso.titulo.toLowerCase().includes(texto)); //Filtra de acuerdo al input del usuario
+        const filtrados = cursos.filter(curso => curso.titulo.toLowerCase().includes(texto) || curso.horario.toLowerCase().includes(texto)); //Filtra de acuerdo al input del usuario
         
         if (filtrados.length === 0) { //Desplegar mensaje en caso de que no haya ninguna respuesta compatible
             contenedor.innerHTML = `<div class="alert alert-light">Sin coincidencias para ${texto}</div>`; 
