@@ -1,3 +1,5 @@
+import { getProducts } from './productController.js'; //Para llamar a la data del JSON que ya se recolectó
+
 //JSON improvisado para pruebas
 /* let cursos =  [
     {
@@ -50,7 +52,7 @@
     }
 ] */
 // Funcion asíncrona para cargar info del JSON
-async function loadData() {
+/* async function loadData() {
     try {
         const response = await fetch('/assets/json/cursos.json'); // Ubicación del JSON
         if (!response.ok) throw new Error('Network response was not ok'); // Si por alguna razón falla
@@ -59,11 +61,11 @@ async function loadData() {
     } catch (error) {
         console.error('There was a problem fetching the JSON:', error);//Mensaje de error
     }
-}
+} */
 
 // Debemos esperar a que se reciba la información para después trabajar con ella
 async function init() {
-    const productos = await loadData(); // Esperamos la info
+    const productos = await getProducts(); // Esperamos la info
     // console.log(productos); //Imprime para debug
     if (!productos) return; // Si no carga la info, no hace nada
     let cursos = productos.filter(item => item.tipo === "Curso"); // Separamos los cursos de los recursos

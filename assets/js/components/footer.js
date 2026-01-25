@@ -37,6 +37,9 @@ button{
     color: black;
     text-decoration: none;
  }
+  a:hover {
+    color: var(--rojo);
+  }
 
  .fw-bold{
     margin-top: 20px;

@@ -1,16 +1,5 @@
 import { getProducts } from './productController.js'; //Para llamar a la data del JSON que ya se recolectó
 
-// Funcion asíncrona para cargar info del JSON
-async function loadData() {
-    try {
-        const response = await fetch('/assets/json/cursos.json'); // Ubicación del JSON
-        if (!response.ok) throw new Error('Network response was not ok'); // Si por alguna razón falla
-        const data = await response.json(); //Esperar la respuesta
-        return data;  //Envia la información para trabajar con ella
-    } catch (error) {
-        console.error('There was a problem fetching the JSON:', error);//Mensaje de error
-    }
-}
 //Ejemplo de un producto en JSON para referencia
  /* {
     "id": 1768868706812,
@@ -69,7 +58,7 @@ async function init() {
     contenedorTitulo.innerHTML = cursoSeleccionado.titulo;
     contenedorImagenSeleccionada.src = cursoSeleccionado.imagenUrl;
     contenedorPrecio.innerHTML = `$${cursoSeleccionado.precio}.00 MXN`
-    contenedorInfoAdicional.innerHTML = cursoSeleccionado.descripcion;
+    contenedorInfoAdicional.innerHTML = cursoSeleccionado.detalle;
     let i = 0;
     for (const elemento of productosNoRepetidos){
         contenedoresExtra[i].innerHTML =
