@@ -34,6 +34,10 @@ body {
     background-color: white;
     text-align: justify;
 }
+h2, h3 {
+    font-family: var(--Tittle-and-subtitles);
+    color: black;
+}
 
 /* BOTÓN */
 .btn-primary {
@@ -44,6 +48,24 @@ body {
     margin: 2rem auto 0;
     padding: 0.5rem 4rem;
     border-radius: 20rem;
+}
+.btn-primary:hover {
+    background-color: var(--rojo);
+    cursor: pointer;
+}
+/* BOTÓN */
+.btn-primari, .btn-secondary {
+    background-color: var(--gris);
+    color: black;
+    border: none;
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.5rem 4rem;
+    border-radius: 20rem;
+}
+.btn-primari:hover, .btn-secondary:hover {
+    background-color: var(--rojo);
+    cursor: pointer;
 }
 
 /* 📱 MOBILE */
