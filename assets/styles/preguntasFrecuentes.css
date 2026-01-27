@@ -1,0 +1,127 @@
+:root{/*Variables fusiladas de la identidad visual*/
+    --rojo:#c91f13;
+    --gris:#D9D9D9;
+    --blanquino:#f5f3ec;
+    --Title-and-subtitles:"El Messiri", sans-serif;
+    --Content:"Source Sans 3", sans-serif;
+}
+
+.lateral{
+    background-color: var(--rojo);
+    margin: 0px;
+}
+
+ .Titulo-preguntasfrecuentes{
+    font-family: var(--Title-and-subtitles);
+    color:var(--rojo);
+    background-color: var(--blanquino);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 30px;
+    
+ }
+
+ .Preguntas-frecuentes{
+    font-family: var(--Title-and-subtitles);
+    color:var(--rojo);
+    text-align: left;
+    font-size: x-large;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+ }.Preguntas-frecuentes p{
+    font-family: var(--Content);
+    color:black;
+    text-align: left;
+    font-size: large;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+body {
+    text-align: left;
+}
+
+
+.Nuestros-Docentes{
+    font-family: var(--Title-and-subtitles);
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--rojo);
+    padding-top: 35px;
+}
+
+.Nuestros-Docentes p{
+    font-family: var(--Content);
+    text-align: justify;
+}
+
+.Nuestros-Docentes-grid{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;   
+    
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-docente{
+    border-radius: 25px;
+    background: #ffffff;
+    max-width: 400px;/*
+    box-shadow: inset -6px -6px 21px #d9d9d9,
+            inset 6px 6px 21px #ffffff;*/
+   
+}
+.tarjeta-ittai h3{
+    font-family: var(--Title-and-subtitles);
+    color: black;
+}
+.tarjeta-ittai{
+    background-color: var(--gris);
+    border-radius: 25px;
+    margin: 10px;
+    max-width: 270px;
+}
+
+.tarjeta-ittai p{
+    font-family: var(--Content);
+    text-align: justify;
+}
+
+.foto-perfil{
+    height: 150px;
+    width: 150px;
+    margin-top:10px;
+    border-radius: 150px;
+}
+
+h2{
+    font-family: var(--Tittle-and-subtitles);
+}
+
+@media screen and (max-width: 1200px){
+    .tarjeta-ittai{
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .tarjeta-ittai{
+        width: 40vw;
+    }
+    .foto-perfil{
+        width: 25vw;
+        height: 25vw;
+        border-radius:25vw;
+    }
+    .tarjeta-ittai h3{
+        font-size: 5vw;
+    }
+
+}
