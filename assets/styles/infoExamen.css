@@ -38,6 +38,13 @@ h2, h3 {
     font-family: var(--Tittle-and-subtitles);
     color: black;
 }
+.subrrayado {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.2rem;
+    margin-bottom: 2rem;
+}
 
 /* BOTÓN */
 .btn-primary {
