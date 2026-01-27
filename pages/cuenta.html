@@ -39,10 +39,52 @@
                 </div>
               </div>
 
+              <!-- Menú dropdown -->
+              <div class="col-12 d-md-none mb-3">
+                <div class="dropdown">
+                  <button id="mobileMenuButton" class="btn w-70 dropdown-toggle"
+                  type="button" data-bs-toggle="dropdown">
+                  Selecciona una opción
+                  </button>
+                  <ul class="dropdown-menu w-70">
+                    <li><a class="dropdown-item" href="#" data-section="perfil">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#" data-section="metodos-pago">Métodos de pago</a></li>
+                    <li><a class="dropdown-item" href="#" data-section="clases-agendadas">Clases agendadas</a></li>
+                    <li><a class="dropdown-item" href="#" data-section="recursos-obtenidos">Recuros obtenidos</a></li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Contenido -->
               <div class="col-md-9 col-12">
                 <div class="content-window p-4">
                   <div id="perfil" class="content-section active">
-                    <h2>Datos de la cuenta</h2>              
+                    <h1>Datos de la cuenta</h1>
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col">
+                          <img src="https://images.icon-icons.com/3873/PNG/512/profile_circle_icon_244573.png" class="img-fluid" alt="icono de perfil">
+                          <p>Activo</p>
+                          <p>Nivel: N5</p>
+                        </div>
+                        <div class="col-md-9">
+                          <ul class="list-group">
+                            <li class="list-group-item item-principal">Nombre(s): </li>
+                            <li class="list-group-item item-principal">Guillermo</li>
+                            <li class="list-group-item item-principal">Apellidos: </li>
+                            <li class="list-group-item item-principal">del Toro Gómez</li>
+                            <li class="list-group-item item-principal">Télefono: </li>
+                            <li class="list-group-item item-principal">+52 8157968532</li>
+                            <li class="list-group-item item-principal">Correo: </li>
+                            <li class="list-group-item item-principal">guillermotorogmz@gmail.com</li>
+                            <li class="list-group-item item-principal">Contraseña: </li>
+                            <li class="list-group-item item-principal">**********</li>
+                            <li style="list-style-type: none;"><button type="button" class="btn btn-secondary btn-cuenta">Editar</button></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                       
                   </div>
 
                   <div id="metodos-pago" class="content-section">
